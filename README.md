@@ -30,7 +30,7 @@ The font used in the whole app has "Kanit" as font family for the text used.
 
 The 'Fonts' folder includes 'Kanit-Medium', which is a .ttf file required for the implementation of font family 'Kanit'.
 
-The 'lib' folder contains two sub-directories named 'Backend' and 'Frontend'.
+The 'lib' folder contains two sub-directory named 'Backend'.
 
 The 'Backend' folder contains the dart files which have API calls.
 
@@ -40,9 +40,15 @@ Filter_Search.dart contains the API which gives the details of Filters available
 
 Search_Sales.dart contains the API which gives the search page.
 
-The 'Frontend' folder contain the dart files required to run the frontend or the flutter app.
+The below files are used for the Frontend part.
 
 The ProductInfo.dart includes the general code for the product information.
+
+HomePage.dart contains the code for the welcome screen of the app.
+
+SearchPage.dart contains the code for the search page of the app.
+
+Filters.dart contains the code for the filter page of the app.
 
 Extra buttons were added for making the app more user friendly.
 
