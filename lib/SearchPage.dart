@@ -58,7 +58,6 @@ class _SearchPageState extends State<SearchPage> {
       List<String> productList = [];
       for (String data in searchListData['models']) {
         productList.add(data);
-        print(data);
       }
       setState(() {
         AvailableSearchedList = productList;

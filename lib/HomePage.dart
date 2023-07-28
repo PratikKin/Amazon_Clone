@@ -1,9 +1,9 @@
 import 'package:amazon/Backend/Customers_Sales.dart';
 import 'package:amazon/Filters.dart';
-import 'package:amazon/ProductInfo.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'ProductInfo.dart';
 import 'SearchPage.dart';
 
 class HomePage extends StatefulWidget {
@@ -165,6 +165,9 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Logo(
                   image: "assets/vivo.png",
+                ),
+                Logo(
+                  image: "assets/realme.png",
                 ),
               ],
             ),

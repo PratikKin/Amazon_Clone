@@ -1,7 +1,7 @@
-import 'package:amazon/HomePage.dart';
 import 'package:flutter/material.dart';
 
-import 'Backend/Filter_Sales.dart';
+import '../Backend/Filter_Sales.dart';
+import 'HomePage.dart';
 
 class FiltersScreen extends StatefulWidget {
   @override
